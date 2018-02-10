@@ -1,0 +1,13 @@
+.. read_write_files documentation master file, created by
+   sphinx-quickstart on Sat Feb 10 15:21:50 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Code
+====
+
+.. automodule:: read_write_files
+    :members:
+    :private-members:
+    :inherited-members:
+
