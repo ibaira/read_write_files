@@ -1,5 +1,5 @@
-Read-write-files
-================
+**Read-write-files**
+====================
 
 Description
 -----------
@@ -46,7 +46,7 @@ Installation
 Usage
 -----
 
-:Using the executable created with Pyinstaller:
+**Using the executable created with Pyinstaller**
 
 .. code-block:: bash
 
@@ -54,7 +54,7 @@ Usage
    $ ./read_write_files 
 
 
-:Using the Docker container:
+**Using the Docker container**
 
 To build the docker container run:
 
@@ -71,6 +71,13 @@ Run the docker container:
 
 The docker container automatically runs our script.
 
+**Using test coverage**
+
+.. code-block:: bash
+
+   $ coverage run read_write_files.py
+   $ comverage report -m
+   $ coverage html
 
 Credits
 -------
