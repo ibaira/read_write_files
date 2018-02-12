@@ -45,6 +45,13 @@ Installation
 
 Usage
 -----
+**Running the python script using Python>=3.5**
+
+.. code-block:: bash
+
+   $ python3 <folder_path>/scripts/read_write_files.py
+   
+The input files to be read should be located under <folder_path>/scripts/input_files. And the output files are created under <folder_path>/scripts/output_files.
 
 **Using the executable created with Pyinstaller**
 
